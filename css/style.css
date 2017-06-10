@@ -1,0 +1,46 @@
+.jumbotronportada {
+  background: url('https://drive.google.com/uc?id=0ByslKxX1WPM3aE9qdV96ZVNlVlE') no-repeat center center;
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 8px;
+  background-size: cover;
+   /* width: 100%; make sure to define width to fill container EL ANCHO */ 
+  height: 900px; /* define the height in pixels or make sure  EL LARGO */
+                   /* you have something in your div with height */
+                   /* so you can see your image */
+    /*max-width:1400px; define the max width if needed!! */
+}
+#jumbo {
+  /* just expanding the container of the jumbotron
+  there was a "bug" with the width 100% it was 
+  expanding more than 100% of the screen with the jumbotron so I had to expand the container instead*/
+  width: 100%;
+}
+.jumbotroncontacto {
+  background: url('https://drive.google.com/uc?id=0ByslKxX1WPM3bzNGamZEWkt4cUU') no-repeat center center;
+  text-align: center;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 8px;
+  background-size: cover;
+   /* width: 100%; make sure to define width to fill container EL ANCHO */ 
+  height: 250px; /* define the height in pixels or make sure  EL LARGO */
+                   /* you have something in your div with height */
+                   /* so you can see your image */
+    /*max-width:1400px; define the max width if needed!! */
+}
+#fontportada {
+  font-family: 'Open Sans', sans-serif;
+}
+#fontwebfoto {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+#fontcontact {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+}

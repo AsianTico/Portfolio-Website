@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Website</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <!-- Remember to use Bootstrap 3.3.7!-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--script to toggle button group from horizontal to vertical when window is resized-->
+    <!--<script src="js/script.js"></script>-->
+    <!-- Also using FONT AWESOME! 4.7 for the linked, github and instagram icons!-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--also using Google Fonts!-->
+     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat|Montserrat+Alternates|Open+Sans" rel="stylesheet">  
+<!-- start the nav bar! The Navbar with bootsrap is responsive, so to group icons you just need to create a navbar-toggle (code below) to group items when windows is resized-->
+<body>
+    <div id="myNavBar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- always create a navbar-brand!-->
+            <a href="#" class="navbar-brand">
+                Luis Alí
+            </a>
+            <!-- creando el boton para agrupar contenido -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling: calling the data-target as navHeaderCollapse to send the items to the navbar-toggle (scroll up to see the code) -->
+            <div class="collapse navbar-collapse navHeaderCollapse text-center">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a rel="nofollow" rel="noreferrer" href="#about"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+ About</a></li>
+                        <!-- creating a dropdown menu for the portfolio option same as with the navbar-toggle but instead use dropdown-toggle class!-->
+                        <li class="dropdown">
+                            <a rel="nofollow" rel="noreferrer" href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-th-large" aria-hidden="true"></i>
+ Portfolio <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class="text-center"><a rel="nofollow" rel="noreferrer" href="#web"><i class="fa fa-code" aria-hidden="true"></i> Web Design</a></li>
+                                <li class="text-center"><a rel="nofollow" rel="noreferrer" href="#foto"><i class="fa fa-picture-o" aria-hidden="true"></i> Photography</a></li>
+                            </ul>
+                        </li>
+                    <li><a rel="nofollow" rel="noreferrer" href="#contact"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+ Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!-- Jumbotron!!!-->
+<a rel="nofollow" rel="noreferrer" name="about"></a>
+<section>
+    <div id="jumbo" class="container jumbotron jumbotronportada">
+            <div id="fontportada" class="row">
+                <div class="col-lg-12">
+                        <h1><b>Luis Alí</b></h1>
+                        <p>Photographer & Free Code Camp Student</p>
+                            
+                            <div id="btn-group-toggle" class="btn-group">
+                                <a rel="nofollow" rel="noreferrer" href="https://github.com/MWRyujin" target="blank_" class="btn btn-default btn-lg"><i class="fa fa-github"></i> GitHub</a>
+                                <a rel="nofollow" rel="noreferrer" href="https://500px.com/choryujin" target="blank_" class="btn btn-default btn-lg"><i class="fa fa-500px"></i> 500px</a>
+                                <a rel="nofollow" rel="noreferrer" href="https://www.linkedin.com/in/luis-ali-b98ab4127/" target="blank_" class="btn btn-default btn-lg"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                            </div>
+                            
+                </div>
+            </div>
+    </div>
+</section>
+
+<!--Creating a section for the portfolio web design -->
+<a rel="nofollow" rel="noreferrer" name="web"></a>
+<hr> <!-- thematic Break -->
+<section id="fontwebfoto" class="container">
+    <div class"row">
+      <div class="col-md-3 text-left hidden-sm hidden-xs">
+        <h2><b>Web Design</b></h2>
+      </div>
+        <div class="col-xs-12 col-md-9">
+				  <h2 class="visible-xs visible-sm"><b>Web Design</b></h2>
+                      <div class="row text-center">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="panel panel-default">
+                                <!--<div class="panel-heading">
+                                    <h4 class="panel-title">Blog Page</h4>
+                                </div>-->
+                                <div class="panel-body">
+                                    <img class="img-responsive" src="https://drive.google.com/uc?id=0ByslKxX1WPM3Z2Q5dVFVbW9qODg" alt="Project 1 image">
+                                    <br><p>Blog Pages</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <a rel="nofollow" rel="noreferrer"class="btn btn-default btn-block" href="https://codepen.io/MWRyujin/full/YVoGWq" target="blank_">
+                                        Check it out <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="panel panel-default">
+                                <!--<div class="panel-heading">
+                                    <h4 class="panel-title">Project 2</h4>
+                                </div>-->
+                                <div class="panel-body">
+                                    <img class="img-responsive" src="http://placehold.it/1440x900" alt="Project 2 image">
+                                    <p>Short project description goes here...</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <a rel="nofollow" rel="noreferrer"class="btn btn-default btn-block" href="#">
+                                        Check it out <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="panel panel-default">
+                                <!--<div class="panel-heading">
+                                    <h4 class="panel-title">Project 3</h4>
+                                </div>-->
+                                <div class="panel-body">
+                                    <img class="img-responsive" src="http://placehold.it/1440x900" alt="Project 3 image">
+                                    <p>Short project description goes here...</p>
+                                </div>
+                                <div class="panel-footer">
+                                    <a rel="nofollow" rel="noreferrer"class="btn btn-default btn-block" href="#">
+                                        Check it out <i class="fa fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+
+</section> <!-- end of the web design section -->
+  
+<!-- Start of the photo section-->
+<a rel="nofollow" rel="noreferrer" name="foto"></a>
+<hr> <!-- thematic Break -->
+<section id="fontwebfoto" class="container">
+    <div class"row">
+      <div class="col-md-3 text-left hidden-sm hidden-xs">
+        <h2><b>Photography</b></h2>
+      </div>
+        <div class="col-xs-12 col-md-9">
+                  <h2 class="visible-xs visible-sm"><b>Photography</b></h2>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-12">
+                                   <!-- testing a boostrap Carousel! -->
+          
+                                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                                          <li data-target="#myCarousel" data-slide-to="3"></li>
+                                          <li data-target="#myCarousel" data-slide-to="4"></li>
+                                          <li data-target="#myCarousel" data-slide-to="5"></li>
+                                          <li data-target="#myCarousel" data-slide-to="6"></li>
+                                          <li data-target="#myCarousel" data-slide-to="7"></li>
+                                          <li data-target="#myCarousel" data-slide-to="8"></li>
+                                          <li data-target="#myCarousel" data-slide-to="9"></li>
+                                          <li data-target="#myCarousel" data-slide-to="10"></li>
+                                          <li data-target="#myCarousel" data-slide-to="11"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                          <div class="item active">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3U1A0LVJ0dm9yOTg" alt="The Team!" style="width:100%;">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3bXdTODhHc3VCOW8" alt="Taking pics of my friends in a Wedding!" style="width:100%;">
+                                          </div>
+                                        
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3UTMwVC1hdGtwMnM" alt="Escafandra Concert!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3c2EzQTRVV1IyYUk" alt="Taking pics of my friends!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3anpKT2RSQnROWUU" alt="Covers Duo Concert!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3T1VKbGJXSEV5WWs" alt="Poison Ivy Cosplay!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3eHZhMS1yZjhNa2c" alt="Dance in the Wedding!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3VUJBODdMSDh6SUk" alt="More pics of my friends!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3TE9rd1lmOUs4SXc" alt="Theater Play: Life in J!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3Nkc3SHE1c2phR1k" alt="Wedding!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3TWw3UmVJdURKU1E" alt="Painting With Light!" style="width:100%;">
+                                          </div>
+                                          
+                                          <div class="item">
+                                            <img src="https://drive.google.com/uc?id=0ByslKxX1WPM3ZlprWVl4a1o0VFE" alt="My Friends and Me!" style="width:100%;">
+                                          </div>
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a rel="nofollow" rel="noreferrer"class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a rel="nofollow" rel="noreferrer"class="right carousel-control" href="#myCarousel" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
+                                    
+                                    <!--end of Carousel--> 
+                            
+                       </div>
+                    </div>
+            </div>
+    </div>
+</section>
+<!--End of Photo Section!-->
+
+<!--Contact Section-->
+<a rel="nofollow" rel="noreferrer" name="contact"></a>
+<hr> <!-- thematic Break -->
+<section>
+    <div id="jumbo" class="container jumbotron jumbotroncontacto">
+            <div class="row">
+                <div class="col-lg-12">
+                        <h2 id="fontcontact"><b>Connect to Luis</b></h2>
+                        
+                            <!--new ID for changing buttons to vertical, since it can only used a unique ID..-->
+                            <div id="btn-group-toggle2" class="btn-group">
+                                <a rel="nofollow" rel="noreferrer" href="https://github.com/MWRyujin" target="blank_" class="btn btn-default btn-lg"><i class="fa fa-github"></i> GitHub</a>
+                                <a rel="nofollow" rel="noreferrer" href="https://500px.com/choryujin" target="blank_" class="btn btn-default btn-lg"><i class="fa fa-500px"></i> 500px</a>
+                                <a rel="nofollow" rel="noreferrer" href="https://www.linkedin.com/in/luis-ali-b98ab4127/" target="blank_" class="btn btn-default btn-lg"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                            </div>
+                            
+                </div>
+            </div>
+    </div>
+</section>
+<!--End of contact section-->
+  
+<!--sticky footer-->
+<div class="navbar navbar-default"> <!--navbar-fixed-bottom-->
+        <div class="container">
+            <p class="navbar-text pull-left">Copyright © <a href="https://www.freecodecamp.com/mwryujin" target="blank_">Luis Alí</a>. All Rights Reserved</p>
+            <!--if you want to add links added with a href then add a class of btn to specify as a botton!-->
+        </div>
+</div>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
